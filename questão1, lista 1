@@ -1,0 +1,7 @@
+#questão 6, lista 1.
+mb=float(input("tamanho do arquivo em megabytes:"))
+mbps=float(input('velocidade da internet'))
+tempo=(mb/mbps)/60
+print('o seu download vai estar pronto em {:.2f} minutos!'.format(tempo))
+#o tamanho do arquivo dividido pela velocidade da internet dá o tempo do download em segundos,
+# como a questão pedia o tempo em minutos eu dividi por 60
