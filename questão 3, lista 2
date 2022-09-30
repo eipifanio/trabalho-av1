@@ -1,0 +1,9 @@
+#questão 3, lista 2.
+n =float(input('digite um número'))
+if(n==n//1):
+#a divisão com duas barras ignora as casas decimais, logo, o numero 1  retorna só a parte inteira.
+#assim, se o numero for igual a ele mesmo dividido por 1 utilizando duas barras entaão ele é inteiro.
+    print('{:.0f} é um número inteiro!'.format(n))
+#usei o ":.0f" para que mesmo sendo do tipo float, não aparecesse sendo um número decimal na impressão
+else:
+    print('{} é um número decimal!'.format(n))
