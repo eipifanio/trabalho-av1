@@ -1,0 +1,13 @@
+a = [1,2,3,4,5,6,7,8,9,10,]
+b = a[0]**2
+c = a[1]**2
+d = a[2]**2
+e = a[3]**2
+f = a[4]**2
+g = a[5]**2
+h = a[6]**2
+i = a[7]**2
+j = a[8]**2
+k = a[9]**2
+print(b+c+d+e+f+g+h+i+j+k)
+# potenciei cada item da lista por 2 usando os dois asteriscos e somei todos no final
