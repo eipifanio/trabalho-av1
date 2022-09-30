@@ -1,0 +1,9 @@
+# questão 2, lista 1.
+peso = float(input('peso total: '))
+if peso > 50:
+    excesso = peso - 50
+    multa = excesso * 4
+    print('peso permitido excedido por {:.2f}Kg, a multa a ser paga será de R${:.2f}!'.format(excesso, multa))
+else:
+    print('peso total dentro do permitido!')
+# usei a mesma lógica do exercicio da multa de excesso de velocidade que fizemos em sala.
